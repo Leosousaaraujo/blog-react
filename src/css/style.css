@@ -11,14 +11,51 @@
 h1, h2, h3, h4, h5, h6 {
   color: white;
   font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #4DDCFF;
+}
+
+h6 {
+  font-size: 16px;
 }
 
 p {
   font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #6D6E70;
 }
 
 a {
   font-family: "Poppins", sans-serif;
+}
+
+.img-profile {
+  width: 50px;
+  height: 50px;
+  background-color: #4E4E50;
+  border-radius: 50%;
 }
 
 .s-0 {
@@ -655,6 +692,7 @@ a {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 8px 24px;
 }
 
 .border {
@@ -686,6 +724,10 @@ a {
   border-radius: 4px;
   color: #FAFCFC;
   padding: 8px;
+}
+
+.container-posts {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
